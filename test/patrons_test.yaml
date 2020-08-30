@@ -1,0 +1,17 @@
+patrons:
+  - name: Joe Test
+    chances:
+      - name: One Patron With All 100 Percent,
+        morning: 100,
+        afternoon: 100,
+        evening: 100
+      - name: Two Patrons With All 100 Percent,
+        morning: 100,
+        afternoon: 100,
+        evening: 100
+  - name: Jane Test
+    chances:
+      - name: Two Patrons With All 100 Percent,
+        morning: 100,
+        afternoon: 100,
+        evening: 100

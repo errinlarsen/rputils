@@ -1,0 +1,74 @@
+locations:
+  - id: 1
+    town_id: 1
+    name: PROSPEROUS FARM COTTAGE AND LARGE BARN
+    desc: >
+      The wood and plaster house is well-kept, and the barn beyond is bulging
+      with hay, grain, etc. Several fat animals are about. A large goodwife,
+      rosy-cheeked and friendly, greets all who call, while four children look
+      on. Inside a young girl and an old granny do various chores. Two large
+      farmdogs bark loudly at the approach of strangers. The head of the house
+      and two full-grown sons work in the fields. There is nothing to interest
+      adventurers here, and outside of feed grain or hay, the farmer does not
+      have anything to sell or trade.
+npcs:
+- id: 1
+  town_id: 1
+  location_id: 1
+  prominent: true
+  name: Polina
+  desc: large goodwife; friendly
+- id: 2
+  town_id: 1
+  location_id: 1
+  prominent: false
+  name: Lorot
+  desc: (4th) Son of Polina & Vengri
+- id: 3
+  town_id: 1
+  location_id: 1
+  prominent: false
+  name: Jutbi
+  desc: (5th) Daughter of Polina & Vengri
+- id: 4
+  town_id: 1
+  location_id: 1
+  prominent: false
+  name: Tember
+  desc: (6th) Daughter of Polina & Vengri
+- id: 5
+  town_id: 1
+  location_id: 1
+  prominent: false
+  name: Tomber
+  desc: (7th) Son of Polina & Vengri
+- id: 6
+  town_id: 1
+  location_id: 1
+  prominent: false
+  name: Shony
+  desc: (3rd) Daughter of Polina & Vengri
+- id: 7
+  town_id: 1
+  location_id: 1
+  prominent: false
+  name: Marilga (Granny)
+  desc: Old grandmother; Mother of Vengri
+- id: 8
+  town_id: 1
+  location_id: 1
+  prominent: true
+  name: Vengri
+  desc: Farmer; Head of his household; Member of the town militia
+- id: 9
+  town_id: 1
+  location_id: 1
+  prominent: true
+  name: Blurg
+  desc: (1st) Son of Polina & Vengri
+- id: 10
+  town_id: 1
+  location_id: 1
+  prominent: true
+  name: Stardon
+  desc: (2nd) Son of Polina & Vengri

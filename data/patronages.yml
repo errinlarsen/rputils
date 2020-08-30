@@ -1,0 +1,15 @@
+- id: 1,
+  patron_id: 1,
+  meeting_place_id: 1
+  chances: -
+    morning: 100
+    afternoon: 100
+    evening: 100
+- id: 2,
+  patron_id: 2,
+  meeting_place_id: 1
+  chances: -
+    morning: 100
+    afternoon: 100
+    evening: 100
+
