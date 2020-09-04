@@ -3,10 +3,15 @@ require 'pry'
 
 class Patrons < Thor
   desc 'generate', 'Generate patrons for The Brazen Strumpet'
+  option :file, aliases: :f
+  option :seed, aliases: :s
 
   def generate
-    @d100 = D100.new
-    table_data = YAML.load_file('data/brazen_strumpet.yml')
+    @file = options.fetch(:file, 'data/brazen_strumpet.yml')
+    @seed = options.fetch(:seed, Random.new_seed)
+
+    @d100 = D100.new(@seed)
+    table_data = YAML.load_file(@file)
 
     location_name = table_data.keys.first
     patrons_data = table_data[location_name]
